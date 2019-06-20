@@ -134,7 +134,7 @@ None.
       vars_files:
         - vars/main.yml
       roles:
-        - { role: geerlingguy.gitlab }
+        - ansible-role-gitlab
 
 *Inside `vars/main.yml`*:
 
